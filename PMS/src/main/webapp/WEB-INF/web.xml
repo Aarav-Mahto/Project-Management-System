@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="https://jakarta.ee/xml/ns/jakartaee" xsi:schemaLocation="https://jakarta.ee/xml/ns/jakartaee https://jakarta.ee/xml/ns/jakartaee/web-app_5_0.xsd" id="WebApp_ID" version="5.0">
+  <display-name>ProjectManagement</display-name>
+  <welcome-file-list>
+    <welcome-file>login.jsp</welcome-file>
+  </welcome-file-list>
+  	<servlet>
+	    <servlet-name>loginpage</servlet-name>
+	    <servlet-class>Login</servlet-class>
+	</servlet>
+	<servlet-mapping>
+	    <servlet-name>loginpage</servlet-name>
+	    <url-pattern>/loginpage</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+        <servlet-name>registerpage</servlet-name>
+        <servlet-class>Register</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>registerpage</servlet-name>
+        <url-pattern>/registerpage</url-pattern>
+    </servlet-mapping>
+    
+    <servlet>
+        <servlet-name>homejsp</servlet-name>
+        <servlet-class>Home</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>homejsp</servlet-name>
+        <url-pattern>/homejsp</url-pattern>
+    </servlet-mapping>
+    
+    <servlet>
+        <servlet-name>projectjsp</servlet-name>
+        <servlet-class>Projects</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>projectjsp</servlet-name>
+        <url-pattern>/projectjsp</url-pattern>
+    </servlet-mapping>
+    
+    <servlet>
+        <servlet-name>assignjsp</servlet-name>
+        <servlet-class>Assign</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>assignjsp</servlet-name>
+        <url-pattern>/assignjsp</url-pattern>
+    </servlet-mapping>
+    
+    <servlet>
+        <servlet-name>completedjsp</servlet-name>
+        <servlet-class>Completed</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>completedjsp</servlet-name>
+        <url-pattern>/completedjsp</url-pattern>
+    </servlet-mapping>
+    
+    <servlet>
+        <servlet-name>pendingjsp</servlet-name>
+        <servlet-class>Pending</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>pendingjsp</servlet-name>
+        <url-pattern>/pendingjsp</url-pattern>
+    </servlet-mapping>
+    
+    <servlet>
+        <servlet-name>runningjsp</servlet-name>
+        <servlet-class>Running</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>runningjsp</servlet-name>
+        <url-pattern>/runningjsp</url-pattern>
+    </servlet-mapping>
+</web-app>

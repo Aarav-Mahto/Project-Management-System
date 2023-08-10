@@ -1,0 +1,47 @@
+@charset "UTF-8";
+
+body{
+	background-image: url('loginBackground.jpg');
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	
+	background-attachment: fixed;
+	box-sizing: border-box;
+}
+.container{
+	height:80vh;
+	width:50%;
+	background-color: rgba(0, 0, 0, 0.9);
+	margin:3% auto;
+	padding:3%;
+	font-size: 15px;
+	text-align: center;
+	color:white;
+	box-sizing: border-box;
+	overflow: hidden;
+	border-top-right-radius: 15%;
+}
+.form-group{
+	margin-bottom: 20px;
+}
+button{
+	width:90px;
+	padding:8px;
+	background-color: #0033cc;
+	color:white;
+	cursor: pointer;
+	border:none;
+	transition: all 0.3s;
+	border-radius: 5px;
+	box-sizing: border-box;
+	box-shadow: 3px 3px 5px darkgray;
+}
+button:hover{
+	background-color: #002080;
+	box-shadow: 5px 5px 10px #bfbfbf;
+}
+h2{
+	padding-bottom: 30px;
+	font-size: 21px;
+}
